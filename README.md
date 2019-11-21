@@ -37,6 +37,8 @@ $ npm run dev
 
 ## API 说明
 - [用户接口](./doc/user.md)
+- [token接口](./doc/tonken.md)
+- [期刊接口](./doc/classic.md)
 
 ## 项目来源与正版教程
 - 请支持正版教程：[《纯正商业级应用－Node.js Koa2开发微信小程序服务端》](https://s.imooc.com/SHHXs2R), by 慕课网：7七月老师
