@@ -58,7 +58,7 @@ router.post('/verify', async (ctx, next) => {
   const result = Auth.verigyToken(v.get('body.token'))
   ctx.body = {
 	result
-  } 
+  }
 })
 
 /**
