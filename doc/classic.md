@@ -1,16 +1,16 @@
-## 期刊
+# 期刊
 
 **注：**
 所有的业务接口设中间token拦截，所以`Basic Auth`中需要设置传入token
 
-### 最新一期期刊
+## 最新一期期刊
 
-#### URL
+### URL
 ```bash
 GET     /v1/classic/latest
 ```
 
-#### Response 200:
+### Response 200:
 ```bash
 {
   "id": 1,
@@ -27,7 +27,7 @@ GET     /v1/classic/latest
 }
 ```
 
-#### Response_description:
+### Response_description:
 * content：期刊内容
 * fav_nums: 点赞次数
 * image: 图片
@@ -37,3 +37,51 @@ GET     /v1/classic/latest
 * title: 期刊题目
 * type: 期刊类型,这里的类型分为:100 电影 200 音乐 300 句子
 * id: 期刊在数据中序号，供点赞使用
+
+
+## 点赞接口
+
+**注：**
+所有的业务接口设中间token拦截，所以`Basic Auth`中需要设置传入token
+
+### 添加点赞数据
+
+#### URL
+
+```bash
+POST     /v1/like
+```
+
+#### Parameters:
+* art_id: 该数据的id（必填）
+* type：该数据的类型（必填）
+
+### Response 200:
+```bash
+{
+  error_code: 0
+  msg: "ok"
+  request: "POST /v1/like/cancel"
+}
+```
+
+### 取消点赞数据
+
+#### URL
+
+```bash
+POST     /v1/like/cancel
+```
+
+#### Parameters:
+* art_id: 该数据的id（必填）
+* type：该数据的类型（必填）
+
+### Response 200:
+```bash
+{
+  error_code: 0
+  msg: "ok"
+  request: "POST /v1/like/cancel"
+}
+```
