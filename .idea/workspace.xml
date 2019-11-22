@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5b92081-8107-42b0-ae1d-541a05e7b64a" name="Default Changelist" comment="补充说明书">
+    <list default="true" id="d5b92081-8107-42b0-ae1d-541a05e7b64a" name="Default Changelist" comment="用户接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/tonken.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/user.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/user.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,84 +31,91 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="3" />
-          <entry key="js" value="17889" />
-          <entry key="md" value="1270" />
-          <entry key="txt" value="69" />
+          <entry key="js" value="21047" />
+          <entry key="md" value="1453" />
+          <entry key="txt" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="17889" />
-          <entry key="Markdown" value="1270" />
-          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="JavaScript" value="21047" />
+          <entry key="Markdown" value="1453" />
+          <entry key="PLAIN_TEXT" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="911" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="js" value="262" />
+          <entry key="js" value="284" />
           <entry key="json" value="2" />
-          <entry key="md" value="23" />
+          <entry key="md" value="29" />
           <entry key="sql" value="1" />
-          <entry key="ts" value="2" />
+          <entry key="ts" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="263" />
-          <entry key="Markdown" value="23" />
+          <entry key="JavaScript" value="285" />
+          <entry key="Markdown" value="29" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
-          <entry key="TypeScript" value="2" />
+          <entry key="TypeScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="1" />
+          <entry key="TypeScriptServerServiceImpl" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/user.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor>
-                <caret column="6" selection-start-column="6" selection-end-column="6" />
-                <folding>
-                  <element signature="e#0#7#0" />
-                  <element signature="e#9#17#0" />
-                  <element signature="e#57#72#0" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="312">
-                <caret line="39" selection-start-line="39" selection-end-line="39" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5808511">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/doc/classic.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="416">
+                    <caret line="208" column="1" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
+                    <folding>
+                      <element signature="e#59#70#0" />
+                      <element signature="e#696#706#0" />
+                      <element signature="e#1132#1139#0" />
+                      <element signature="e#1185#1202#0" />
+                      <element signature="e#2129#2154#0" />
+                      <element signature="e#2155#2323#0" />
+                    </folding>
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/models/favor.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1965">
+                  <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sequelize</find>
       <find>HttpException</find>
-      <find>PositiveIntegerValidator</find>
       <find>validate</find>
       <find>123123123</find>
       <find>1111111111111111200</find>
@@ -133,6 +137,9 @@
       <find>Success</find>
       <find>RegisterValidator</find>
       <find>NotEmptyValidator</find>
+      <find>NotFound</find>
+      <find>checkType</find>
+      <find>PositiveIntegerValidator</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -154,7 +161,6 @@
         <option value="$PROJECT_DIR$/middlewares/exception.js" />
         <option value="$PROJECT_DIR$/core/lin-validator.js" />
         <option value="$PROJECT_DIR$/app/lib/helper.js" />
-        <option value="$PROJECT_DIR$/app/lib/enum.js" />
         <option value="$PROJECT_DIR$/core/util.js" />
         <option value="$PROJECT_DIR$/app/api/v1/user.js" />
         <option value="$PROJECT_DIR$/config/config.js" />
@@ -166,19 +172,20 @@
         <option value="$PROJECT_DIR$/core/db.js" />
         <option value="$PROJECT_DIR$/middlewares/auth.js" />
         <option value="$PROJECT_DIR$/doc/classic.js" />
-        <option value="$PROJECT_DIR$/app/models/art.js" />
-        <option value="$PROJECT_DIR$/app/api/v1/classic.js" />
-        <option value="$PROJECT_DIR$/doc/classic.md" />
         <option value="$PROJECT_DIR$/app/api/v1/token.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/core/http-exception.js" />
+        <option value="$PROJECT_DIR$/app/api/v1/like.js" />
+        <option value="$PROJECT_DIR$/doc/tonken.md" />
+        <option value="$PROJECT_DIR$/doc/like.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/doc/user.md" />
+        <option value="$PROJECT_DIR$/app/lib/enum.js" />
         <option value="$PROJECT_DIR$/app/validators/validator.js" />
         <option value="$PROJECT_DIR$/app/models/favor.js" />
-        <option value="$PROJECT_DIR$/app/api/v1/like.js" />
-        <option value="$PROJECT_DIR$/doc/like.md" />
-        <option value="$PROJECT_DIR$/doc/tonken.md" />
-        <option value="$PROJECT_DIR$/doc/user.md" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/models/art.js" />
+        <option value="$PROJECT_DIR$/app/api/v1/classic.js" />
+        <option value="$PROJECT_DIR$/doc/classic.md" />
       </list>
     </option>
   </component>
@@ -198,10 +205,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="35" />
-    <option name="width" value="1714" />
-    <option name="height" value="1103" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="512" />
+    <option name="y" value="17" />
+    <option name="width" value="1155" />
+    <option name="height" value="1033" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -215,63 +223,6 @@
             <path>
               <item name="island" type="b2602c69:ProjectViewProjectNode" />
               <item name="island" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="island" type="b2602c69:ProjectViewProjectNode" />
-              <item name="island" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="island" type="b2602c69:ProjectViewProjectNode" />
-              <item name="island" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="island" type="b2602c69:ProjectViewProjectNode" />
-              <item name="island" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="island" type="b2602c69:ProjectViewProjectNode" />
-              <item name="island" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="island" type="b2602c69:ProjectViewProjectNode" />
-              <item name="island" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="island" type="b2602c69:ProjectViewProjectNode" />
-              <item name="island" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="island" type="b2602c69:ProjectViewProjectNode" />
-              <item name="island" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="validators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="island" type="b2602c69:ProjectViewProjectNode" />
-              <item name="island" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="island" type="b2602c69:ProjectViewProjectNode" />
-              <item name="island" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="island" type="b2602c69:ProjectViewProjectNode" />
-              <item name="island" type="462c0819:PsiDirectoryNode" />
-              <item name="middlewares" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="island" type="b2602c69:ProjectViewProjectNode" />
@@ -349,7 +300,7 @@
       <workItem from="1574257793248" duration="3317000" />
       <workItem from="1574299554187" duration="20532000" />
       <workItem from="1574340433160" duration="6960000" />
-      <workItem from="1574386834039" duration="660000" />
+      <workItem from="1574386834039" duration="17727000" />
     </task>
     <task id="LOCAL-00001" summary="补充说明书">
       <created>1574318390343</created>
@@ -414,32 +365,66 @@
       <option name="project" value="LOCAL" />
       <updated>1574348445675</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="期刊接口">
+      <created>1574387629432</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574387629432</updated>
+    </task>
+    <task id="LOCAL-00011" summary="用户接口">
+      <created>1574387647766</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574387647767</updated>
+    </task>
+    <task id="LOCAL-00012" summary="整理说明书">
+      <created>1574387658219</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574387658219</updated>
+    </task>
+    <task id="LOCAL-00013" summary="用户接口">
+      <created>1574387958268</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574387958268</updated>
+    </task>
+    <task id="LOCAL-00014" summary="期刊接口">
+      <created>1574412526416</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574412526416</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139244000" />
+    <option name="totallyTimeSpent" value="156311000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="0" width="1371" height="882" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990138" visible="true" weight="0.20149812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990138" visible="true" weight="0.17437252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5009862" side_tool="true" weight="0.15254237" />
       <window_info id="DB Browser" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49958017" visible="true" weight="0.010680908" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.48794326" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49958017" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37304965" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32765958" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004198" side_tool="true" weight="0.36700338" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -477,7 +462,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="补充说明书" />
-    <MESSAGE value="期刊接口" />
     <MESSAGE value="token接口" />
     <MESSAGE value="点赞接口" />
     <MESSAGE value="点赞数据库model" />
@@ -485,7 +469,10 @@
     <MESSAGE value="全局异常处理规则" />
     <MESSAGE value="点赞接口文档" />
     <MESSAGE value="项目说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目说明" />
+    <MESSAGE value="整理说明书" />
+    <MESSAGE value="用户接口" />
+    <MESSAGE value="期刊接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="期刊接口" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -493,11 +480,17 @@
         <watch expression="user.id" language="JavaScript" />
         <watch expression="v.get('body.art_id')" language="JavaScript" />
         <watch expression="v.get('body.type')" language="JavaScript" />
+        <watch expression="artList" language="JavaScript" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>artList</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>v.get('body.type')</expression-string>
         <language-id>JavaScript</language-id>
@@ -645,13 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/sequelize/types/lib/model.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="1935" column="16" selection-start-line="1935" selection-start-column="16" selection-end-line="1935" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mysql2/lib/commands/change_user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -701,6 +687,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!block;n#verifyEmailPassword#0;n#User#0" />
+            <element signature="n#!!block;n#getUserByOpenid#0;n#User#0" />
+            <element signature="n#!!block;n#registerByOpenid#0;n#User#0" />
+            <element signature="e#972#1154#0" />
+            <element signature="e#1195#1253#0" />
+            <element signature="e#1267#1475#0" />
+            <element signature="e#1487#1550#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -714,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/enum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/api/v1/book.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -728,24 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/classic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1064">
-          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/art.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -763,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/lib/helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/koa-router/lib/layer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -784,56 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/v1/classic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="2" column="15" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/lin-validator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middlewares/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middlewares/exception.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/http-exception.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="81" column="14" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/classic.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="112">
-            <caret line="30" column="14" selection-start-line="8" selection-end-line="10" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/api/v1/like.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -841,44 +758,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/flow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/favor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/validators/validator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/like.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="140">
-            <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-            <folding>
-              <element signature="e#62#72#0" />
-            </folding>
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -890,11 +773,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/like.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="312">
-            <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <first_editor relative-caret-position="1120">
+            <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           </first_editor>
           <second_editor />
         </state>
@@ -903,12 +794,138 @@
     <entry file="file://$PROJECT_DIR$/doc/user.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor>
-            <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <first_editor relative-caret-position="504">
+            <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
             <folding>
-              <element signature="e#0#7#0" />
               <element signature="e#9#17#0" />
               <element signature="e#57#72#0" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/http-exception.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/flow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sequelize/types/lib/model.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="1813" column="16" selection-start-line="1813" selection-start-column="16" selection-end-line="1813" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/classic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1542">
+          <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lib/enum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lin-validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="81" column="15" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/validators/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#TokenValidator#0" />
+            <element signature="n#!!block;n#constructor#0;n#CheckedType#0" />
+            <element signature="n#!!block;n#checkType#0;n#Checkedr#0" />
+            <element signature="n#NotEmptyValidator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middlewares/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middlewares/exception.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/favor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1965">
+          <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/art.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/classic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="99" column="18" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="18" />
+          <folding>
+            <element signature="e#379#606#0" />
+            <element signature="e#691#697#0" />
+            <element signature="e#815#836#0" />
+            <element signature="e#915#962#0" />
+            <element signature="e#1957#2082#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/classic.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="416">
+            <caret line="208" column="1" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
+            <folding>
+              <element signature="e#59#70#0" />
+              <element signature="e#696#706#0" />
+              <element signature="e#1132#1139#0" />
+              <element signature="e#1185#1202#0" />
+              <element signature="e#2129#2154#0" />
+              <element signature="e#2155#2323#0" />
             </folding>
           </first_editor>
           <second_editor />
