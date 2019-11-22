@@ -1,6 +1,6 @@
 const {sequelize} = require('../../core/db');
 
-const {Sequelize, Model} = require('sequelize');
+const {Sequelize, Model, Op} = require('sequelize');
 
 const {Art} = require('./art');
 
@@ -31,6 +31,9 @@ class Favor extends Model {
 	  await Favor.create(data, {transaction: t})
       const art = await Art.getData(art_id, type)
       // 对art中查到的某个数据表进行fav_nums字段喜欢加1
+	  if (!art) {
+		throw new global.errs.NotFound()
+	  }
       await art.increment('fav_nums', {by: 1, transaction: t})
     })
   }
@@ -59,6 +62,38 @@ class Favor extends Model {
 	  // 对art中查到的某个数据表进行fav_nums字段喜欢加1
 	  await art.decrement('fav_nums', {by: 1, transaction: t})
 	})
+  }
+
+  /**
+   * 查询指定这个用户对此期刊是否点赞
+   */
+  static async userLikeIt (art_id, type, uid) {
+    const favor = await Favor.findOne({
+	  where: {
+		art_id,
+		type,
+		uid
+	  }
+	})
+	return !!favor
+  }
+
+  /**
+   * 查询此用户喜欢的所有信息且type不等于400
+   */
+  static async getMyClassicFavors(uid) {
+    const arts = await Favor.findAll({
+	  where: {
+	    uid,
+		type: {
+	      [Op.not]: 400
+		}
+	  }
+	})
+	if (!arts) {
+	  throw new global.errs.NotFound();
+	}
+	return await Art.getList(arts)
   }
 }
 
