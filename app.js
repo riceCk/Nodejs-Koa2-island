@@ -3,7 +3,7 @@ const parser = require('koa-bodyparser'); // 获取post参数插件
 const catchError = require('./middlewares/exception')
 const InitManager = require('./core/init');
 
-// require('./app/models/flow')
+// require('./app/models/hot_book')
 
 // 应用程序对象
 const app = new Koa();

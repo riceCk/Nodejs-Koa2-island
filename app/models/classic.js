@@ -56,6 +56,7 @@ class Music extends Model {
 const musicFields = Object.assign({
   url: Sequelize.STRING
 }, classicFields)
+
 Music.init(musicFields, {
 	  sequelize,
 	  tableName: 'music'
