@@ -208,3 +208,28 @@ GET      /classic/favor
   }
 ]
 ```
+
+
+## 7、获取期刊信息
+
+### URL
+```bash
+GET      /:type/:id
+```
+
+### Response 200:
+```bash
+{
+    content: "人生不能像做菜，把所有的料准备好才下锅"
+    created_at: "2019-11-21T07:41:20.000Z"
+    deleted_at: null
+    fav_nums: 168
+    id: 1
+    image: "imges/movie.8.png"
+    like_status: true
+    pubdate: "2018-06-22"
+    title: "李安《饮食男女》"
+    type: 100
+    updated_at: "2019-11-22T06:42:40.000Z"
+}
+```
