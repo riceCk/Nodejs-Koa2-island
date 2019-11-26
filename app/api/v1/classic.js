@@ -22,7 +22,8 @@ router.get('/latest', new Auth().m, async (ctx, next) => {
   })
   const art = await Art.getData(flow.art_id, flow.type)
   // 修改art内置里面属性
-  art.setDataValue('index', flow.index)
+  art.setDataValue('index', flow.index);
+  // art.exclude = ['created_at', 'deleted_at', 'updated_at'];
   ctx.body = art
 })
 

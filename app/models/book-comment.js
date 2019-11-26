@@ -39,13 +39,15 @@ class Comment extends Model {
 	return comments
   }
 
-  toJSON () {
-    return {
-      content: this.getDataValue('content'),
-	  nums: this.getDataValue('nums')
-	}
-  }
+  // toJSON () {
+  //   return {
+  //     content: this.getDataValue('content'),
+	//   nums: this.getDataValue('nums')
+	// }
+  // }
 }
+
+Comment.prototype.exclude = ['book_id', 'id'];
 
 Comment.init({
   book_id: Sequelize.INTEGER,

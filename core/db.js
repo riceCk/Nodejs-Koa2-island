@@ -38,7 +38,10 @@ sequelize.sync({
 
 Model.prototype.toJSON = function () {
   let data = clone(this.dataValues)
-   if (isArray(this.exclude)) {
+  unset(data, 'updated_at')
+  unset(data, 'created_at')
+  unset(data, 'deleted_at')
+  if (isArray(this.exclude)) {
     this.exclude.forEach(value => {
       unset(data, value)
 	})
