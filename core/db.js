@@ -2,7 +2,8 @@
  * 数据库的代码处理
  */
 
-const Sequelize = require('sequelize');
+const {Sequelize, Model} = require('sequelize');
+const {unset, clone, isArray} = require('lodash');
 const {
   dbName,
   host,
@@ -34,6 +35,16 @@ const sequelize = new Sequelize(dbName, user, password, {
 sequelize.sync({
   force: false
 })
+
+Model.prototype.toJSON = function () {
+  let data = clone(this.dataValues)
+   if (isArray(this.exclude)) {
+    this.exclude.forEach(value => {
+      unset(data, value)
+	})
+  }
+  return data
+}
 
 module.exports = {
   sequelize

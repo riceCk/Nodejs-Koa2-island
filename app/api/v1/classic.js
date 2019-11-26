@@ -4,7 +4,7 @@ const router = new Router({
   prefix: '/v1/classic'
 })
 
-const {PositiveIntegerValidator, ClassicValidator} = require('../../validators/validator')
+const {PositiveIntegerValidator, ClassicValidator} = require('../../validators/validator');
 const {Auth} = require('../../../middlewares/auth');
 const {Flow} = require('../../models/flow');
 const {Art} = require('../../models/art');

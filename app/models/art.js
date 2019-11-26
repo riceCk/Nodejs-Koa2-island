@@ -7,7 +7,7 @@ const {Op} = require('sequelize');
 const {flatten} = require('lodash');
 
 const {Movie, Sentence, Music} = require('./classic');
-const {Favor} = require('./favor');
+
 
 
 class Art {
@@ -17,10 +17,11 @@ class Art {
   }
   async getDetail (uid) {
 	const art = await Art.getData(+this.art_id, +this.type)
+	const {Favor} = require('./favor');
 	if (!art) {
 	  throw new global.errs.NotFound();
 	}
-	const like = await Favor.userLikeIt(+this.art_id, +this.type, uid);
+		const like = await Favor.userLikeIt(+this.art_id, +this.type, uid);
 	return {
 	  art,
 	  like_status: like
