@@ -24,8 +24,8 @@ router.get('/hot_list',async (ctx, next) => {
  */
 router.get('/:id/detail', async ctx =>{
   const v = await new PositiveIntegerValidator().validate(ctx);
-  const book = new Book(v.get('path.id'));
-  ctx.body = await book.detail()
+  // const book = new Book(v.get('path.id'));
+  ctx.body = await Book.detail(v.get('path.id'))
 })
 
 /**
@@ -55,7 +55,12 @@ router.get('/:book_id/favor', new Auth().m, async ctx =>{
   const v = await new PositiveIntegerValidator().validate(ctx, {
     id: 'book_id'
   });
-  ctx.body = await Favor.getBookFavor(ctx.auth.uid, v.get('path.book_id'));
+  const book_id = v.get('path.book_id')
+  const comments = await Favor.getBookFavor(ctx.auth.uid, book_id);
+  ctx.body = {
+    comments,
+    book_id
+  }
 })
 
 /**

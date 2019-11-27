@@ -29,7 +29,7 @@ class Art {
   }
   static async getData(art_id, type) {
 	let art = null
-	const finder = {
+	const finder  = {
 	  where: {
 		id: art_id,
 	  }
@@ -46,10 +46,21 @@ class Art {
 		break;
 	  case 400:
 		// 书籍
+		  const {Book} = require('./book');
+		  art = await Book.findOne(finder);
+		  if (!art) {
+		    art = await Book.create({
+			  id: art_id,
+			})
+		  }
 		break;
 	  default:
 		break;
 	}
+	// if (art && art.image) {
+	//   let imageUrl = art.dataValues.image
+	//   art.dataValues.image = global.config.host + imageUrl
+	// }
 	return art
   }
 

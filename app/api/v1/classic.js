@@ -21,8 +21,13 @@ router.get('/latest', new Auth().m, async (ctx, next) => {
     ]
   })
   const art = await Art.getData(flow.art_id, flow.type)
+  const i = art.get('image')
+  const t = art.image
+  const s = art.getDataValue('image');
+  const likeLatest = await Favor.userLikeIt(flow.art_id, flow.type, ctx.auth.uid);
   // 修改art内置里面属性
   art.setDataValue('index', flow.index);
+  art.setDataValue('like_status', likeLatest);
   // art.exclude = ['created_at', 'deleted_at', 'updated_at'];
   ctx.body = art
 })

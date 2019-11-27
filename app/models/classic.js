@@ -14,7 +14,12 @@ const {Sequelize, Model} = require('sequelize');
  * type: 代号
  */
 const classicFields = {
-  image: Sequelize.STRING,
+  image: {
+    type: Sequelize.STRING,
+    // get () {
+      // return global.config.host + this.getDataValue('image')
+    // }
+  },
   content: Sequelize.STRING,
   pubdate: Sequelize.DATEONLY,
   fav_nums: {
