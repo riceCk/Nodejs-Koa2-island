@@ -21,7 +21,8 @@ class WXManager {
   static async codeToToken (code) {
     const url = util.format(global.config.wx.loginUrl,
 							global.config.wx.appId,
-							global.config.wx.appSecret)
+							global.config.wx.appSecret,
+							code)
 	const result =  await axios.get(url)
 	if (+result.status !== 200) {
 	  throw new global.errs.AuthFiled('openid获取失败')
@@ -30,11 +31,11 @@ class WXManager {
 	if (errcode) {
 	  throw new global.errs.AuthFiled(result.data.errmsg)
 	}
-	let user = await User.getUserByOpenid(code);
+	let user = await User.getUserByOpenid(result.data.openid);
   	if (!user) {
-  	  user = await User.registerByOpenid(code)
+  	  user = await User.registerByOpenid(result.data.openid)
 	}
-	return generateToken(user.id, Auth.USER)
+	return generateToken(user.id, Auth.USER, global.config.security.expiresInTwoHours)
   }
 }
 

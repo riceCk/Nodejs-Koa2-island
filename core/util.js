@@ -39,10 +39,9 @@ const findMembers = function (instance, {
   return _find(instance)
 }
 
-// 颁发令牌
-const generateToken = function (uid, scope) {
+// 颁发时长2小时的暂时令牌
+const generateToken = function (uid, scope, expiresIn = global.config.security.expiresInTwoHours) {
   const secretKey = global.config.security.secretKey
-  const expiresIn = global.config.security.expiresIn
   const token = jwt.sign({
 	uid,
 	scope

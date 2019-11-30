@@ -69,7 +69,10 @@ router.post('/verify', async (ctx, next) => {
  */
 async function emailLogin(account, secret) {
   const user = await User.verifyEmailPassword(account, secret)
-  return generateToken(user.id, Auth.USER)
+  return {
+	access_token: generateToken(user.id, Auth.USER, global.config.security.expiresInTwoHours),
+	refresh_token: generateToken(user.id, Auth.USER, global.config.security.expiresInMonth)
+  }
 }
 
 module.exports = router

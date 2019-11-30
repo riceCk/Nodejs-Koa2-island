@@ -13,12 +13,13 @@ module.exports = {
   },
   security: {
 	secretKey: "abcdefg",
-	expiresIn: 60 * 60 * 24 * 30// 令牌过期时间
+	expiresInTwoHours: 60 * 60 * 2, // 令牌过期时间
+	expiresInMonth: 60 * 60 * 24 * 30// 令牌过期时间
   },
   wx: {
 	appId: 'wx204a0653c330ea4e',
 	appSecret: 'ea97b73cd80d15ba1573d730250ca353',
-  	loginUrl: 'https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=%s&secret=%s'
+  	loginUrl: 'https://api.weixin.qq.com/sns/jscode2session?appid=%s&secret=%s&js_code=%s&grant_type=authorization_code'
   },
   yushu: {
 	detailUrl: 'http://t.yushu.im/v2/book/id/%s',
