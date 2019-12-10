@@ -40,6 +40,7 @@ router.get('/:index/next', new Auth().m, async ctx => {
     id: 'index'
   })
   const index = v.get('path.index');
+  console.log(index, 12312)
   const flow = await await Flow.findOne({
     where: {
       index: index + 1
@@ -53,9 +54,7 @@ router.get('/:index/next', new Auth().m, async ctx => {
   // 修改art内置里面属性
   art.setDataValue('index', flow.index)
   art.setDataValue('like_status', likeNext)
-  ctx.body = {
-	art
-  }
+  ctx.body = art
 })
 
 /**

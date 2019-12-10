@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5b92081-8107-42b0-ae1d-541a05e7b64a" name="Default Changelist" comment="">
+    <list default="true" id="d5b92081-8107-42b0-ae1d-541a05e7b64a" name="Default Changelist" comment="基本接口完成率">
+      <change afterPath="$PROJECT_DIR$/static/music/1.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/v1/book.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/book.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/v1/classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/classic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/art.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/art.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/book.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/classic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/hot_book.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/hot_book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +19,11 @@
     <session id="1876209975">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="6" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
@@ -39,20 +32,20 @@
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="3" />
-          <entry key="js" value="27880" />
+          <entry key="js" value="28056" />
           <entry key="md" value="2172" />
           <entry key="txt" value="126" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="27880" />
+          <entry key="JavaScript" value="28056" />
           <entry key="Markdown" value="2172" />
           <entry key="PLAIN_TEXT" value="129" />
         </counts>
@@ -61,7 +54,7 @@
         <counts>
           <entry key="911" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="js" value="388" />
+          <entry key="js" value="399" />
           <entry key="json" value="3" />
           <entry key="md" value="48" />
           <entry key="sql" value="1" />
@@ -71,7 +64,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="389" />
+          <entry key="JavaScript" value="400" />
           <entry key="Markdown" value="48" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="1" />
@@ -84,70 +77,80 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1549243687">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="14" />
+          <entry key="png" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="9" />
+          <entry key="JavaScript" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="184" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="184" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3900156">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/api/v1/book.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="697">
-                  <caret line="26" selection-start-line="26" selection-end-line="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/api/v1/classic.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="196">
-                  <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/models/art.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="28">
-                  <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-                  <folding>
-                    <element signature="e#849#1028#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models/classic.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/core/db.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="158">
-                  <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/art.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/api/v1/classic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2100">
+              <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>123123123</find>
       <find>1111111111111111200</find>
       <find>13221312 1111111111111111200</find>
       <find>ParameterException</find>
@@ -157,7 +160,6 @@
       <find>accou</find>
       <find>findMembers</find>
       <find>verifyEmailPassword</find>
-      <find>generateToken</find>
       <find>userMiniProgram</find>
       <find>TokenValidator</find>
       <find>User</find>
@@ -177,6 +179,8 @@
       <find>increment</find>
       <find>Favor</find>
       <find>koa-static</find>
+      <find>generateAccessToken</find>
+      <find>generateToken</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -197,14 +201,10 @@
         <option value="$PROJECT_DIR$/middlewares/exception.js" />
         <option value="$PROJECT_DIR$/core/lin-validator.js" />
         <option value="$PROJECT_DIR$/app/lib/helper.js" />
-        <option value="$PROJECT_DIR$/core/util.js" />
         <option value="$PROJECT_DIR$/app/api/v1/user.js" />
-        <option value="$PROJECT_DIR$/app/services/wx.js" />
         <option value="$PROJECT_DIR$/app/models/user.js" />
         <option value="$PROJECT_DIR$/app/models/flow.js" />
-        <option value="$PROJECT_DIR$/middlewares/auth.js" />
         <option value="$PROJECT_DIR$/doc/classic.js" />
-        <option value="$PROJECT_DIR$/app/api/v1/token.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/core/http-exception.js" />
         <option value="$PROJECT_DIR$/app/api/v1/like.js" />
@@ -214,7 +214,6 @@
         <option value="$PROJECT_DIR$/app/lib/enum.js" />
         <option value="$PROJECT_DIR$/doc/classic.md" />
         <option value="$PROJECT_DIR$/doc/图书接口.md" />
-        <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/models/favor.js" />
         <option value="$PROJECT_DIR$/app/validators/validator.js" />
@@ -226,8 +225,13 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app/models/classic.js" />
         <option value="$PROJECT_DIR$/app/api/v1/book.js" />
-        <option value="$PROJECT_DIR$/app/api/v1/classic.js" />
         <option value="$PROJECT_DIR$/app/models/art.js" />
+        <option value="$PROJECT_DIR$/middlewares/auth.js" />
+        <option value="$PROJECT_DIR$/config/config.js" />
+        <option value="$PROJECT_DIR$/core/util.js" />
+        <option value="$PROJECT_DIR$/app/api/v1/token.js" />
+        <option value="$PROJECT_DIR$/app/services/wx.js" />
+        <option value="$PROJECT_DIR$/app/api/v1/classic.js" />
       </list>
     </option>
   </component>
@@ -248,10 +252,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="392" />
-    <option name="y" value="56" />
-    <option name="width" value="1465" />
-    <option name="height" value="935" />
+    <option name="x" value="475" />
+    <option name="y" value="95" />
+    <option name="width" value="1285" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -294,7 +298,13 @@
             <path>
               <item name="island" type="b2602c69:ProjectViewProjectNode" />
               <item name="island" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="island" type="b2602c69:ProjectViewProjectNode" />
+              <item name="island" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,7 +323,11 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web前端技术学习\前端学习\5.微信小程序\1.Node.js Koa2开发微信小程序服务端\island\static\music" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\web前端技术学习\前端学习\5.微信小程序\1.Node.js Koa2开发微信小程序服务端\island\static\music" />
       <recent name="E:\web前端技术学习\前端学习\5.Node.js Koa2开发微信小程序服务端\island\app\validators" />
       <recent name="E:\web前端技术学习\前端学习\5.Node.js Koa2开发微信小程序服务端\island\core" />
       <recent name="E:\web前端技术学习\前端学习\5.Node.js Koa2开发微信小程序服务端\island\app" />
@@ -374,6 +388,19 @@
       <workItem from="1574686974478" duration="3494000" />
       <workItem from="1574730844949" duration="8809000" />
       <workItem from="1574768137837" duration="6698000" />
+      <workItem from="1574824326686" duration="3614000" />
+      <workItem from="1574998998064" duration="3055000" />
+      <workItem from="1575084786790" duration="26000" />
+      <workItem from="1575087905058" duration="277000" />
+      <workItem from="1575165839947" duration="358000" />
+      <workItem from="1575170579991" duration="3565000" />
+      <workItem from="1575256213510" duration="676000" />
+      <workItem from="1575287846572" duration="621000" />
+      <workItem from="1575337233003" duration="1751000" />
+      <workItem from="1575547016064" duration="865000" />
+      <workItem from="1575601873171" duration="10000" />
+      <workItem from="1575684718544" duration="9000" />
+      <workItem from="1575854280811" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="补充说明书">
       <created>1574318390343</created>
@@ -522,25 +549,32 @@
       <option name="project" value="LOCAL" />
       <updated>1574751296645</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="基本接口完成率">
+      <created>1574824362916</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1574824362916</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204700000" />
+    <option name="totallyTimeSpent" value="219613000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="381" y="77" width="1028" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990138" visible="true" weight="0.15323646" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990138" visible="true" weight="0.18346775" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5009862" side_tool="true" weight="0.15254237" />
       <window_info id="DB Browser" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49958017" visible="true" weight="0.2539007" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3035461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49958017" weight="0.71973467" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1319149" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -548,7 +582,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3319149" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004198" side_tool="true" weight="0.36700338" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004198" side_tool="true" weight="0.36595744" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -607,23 +641,56 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/app/api/v1/classic.js</url>
           <line>22</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/middlewares/auth.js</url>
+          <line>60</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/services/wx.js</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/services/wx.js</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
-        <watch expression="v.get('query.q')" language="JavaScript" />
-        <watch expression="v.get('body.q')" language="JavaScript" />
-        <watch expression="v.get('body.summary')" language="JavaScript" />
-        <watch expression="summary" language="JavaScript" />
-        <watch expression="path.join(__dirname, './static')" language="JavaScript" />
+        <watch expression="decode" language="JavaScript" />
+        <watch expression="url" language="JavaScript" />
+        <watch expression="result" language="JavaScript" />
+        <watch expression="user" language="JavaScript" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>user</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>result</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>url</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>decode</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>path.join(__dirname, './static')</expression-string>
         <language-id>JavaScript</language-id>
@@ -654,123 +721,13 @@
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>v.get('body.type')</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>v.get('body.art_id')</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>user.id</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>error</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../nodejs-koa-wxapp/core/lin-validator-v2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="9" lean-forward="true" selection-end-line="276" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nodejs-koa-wxapp/app/validators/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/koa-bodyparser/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nodejs-koa-wxapp/core/lin-validator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" lean-forward="true" selection-end-line="277" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/koa-compose/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1148">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/co-body/lib/json.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/validate-commit-msg/lib/validateMessage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mysql2/lib/commands/change_user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/wx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/flow.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../nodejs-koa-wxapp/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="864">
-            <caret line="47" selection-start-line="47" selection-end-line="47" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008">
-          <caret column="33" selection-start-column="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -846,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/v1/token.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1316">
-          <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/api/v1/like.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -878,9 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
           <caret line="198" column="2" selection-start-line="198" selection-start-column="2" selection-end-line="198" selection-end-column="2" />
-          <folding>
-            <element signature="n#SearchValidator#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,29 +836,8 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="3388">
             <caret line="192" column="1" selection-start-line="192" selection-start-column="1" selection-end-line="192" selection-end-column="1" />
-            <folding>
-              <element signature="e#8#21#0" />
-              <element signature="e#87#694#0" />
-              <element signature="e#865#880#0" />
-              <element signature="e#1588#1597#0" />
-              <element signature="e#2185#2594#0" />
-            </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/middlewares/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -926,13 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!block;n#like#0;n#Favor#0" />
-            <element signature="n#!!block;n#dislike#0;n#Favor#0" />
-            <element signature="n#!!block;n#getMyClassicFavors#0;n#Favor#0" />
-            <element signature="e#1761#1812#0" />
-            <element signature="n#!!block;n#getBookFavor#0;n#Favor#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,13 +862,6 @@
             <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/v1/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -964,17 +876,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/classic.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="419">
             <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="25" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -989,9 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#438#469#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -999,9 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="n#!!block;n#addComment#0;n#Comment#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1012,64 +918,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.js">
+    <entry file="file://$PROJECT_DIR$/app/api/v1/book.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="68" column="12" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!doc;n#User#0" />
-            <element signature="n#User#0" />
-            <element signature="n#!!block;n#verifyEmailPassword#0;n#User#0" />
-            <element signature="n#!!block;n#getUserByOpenid#0;n#User#0" />
-            <element signature="n#!!block;n#registerByOpenid#0;n#User#0" />
-            <element signature="e#1195#1253#0" />
-            <element signature="e#1487#1550#0" />
-          </folding>
+        <state relative-caret-position="728">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/classic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="532">
           <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/v1/book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/api/v1/classic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="1120">
           <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middlewares/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/validate-commit-msg/lib/validateMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/javascript/nodejs/library/node-globals-stub.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="368" column="4" selection-start-line="368" selection-start-column="4" selection-end-line="368" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="72" column="50" lean-forward="true" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/wx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/inroduce.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/movie.4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/movie.8.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/music.1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/music.3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/music.5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/music.7.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/sentence.6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/sentence.2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="56" column="15" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/art.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <element signature="e#849#1028#0" />
-          </folding>
+        <state relative-caret-position="924">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/api/v1/classic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
