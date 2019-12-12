@@ -162,7 +162,7 @@ GET     /v1/classic/:index/previous
 ## 5、获取点赞信息
 ### URL
 ```bash
-GET     /:type/:id/favor
+GET      /v1/classic/:type/:id/favor
 ```
 
 ### Response 200:
