@@ -34,7 +34,10 @@ class Comment extends Model {
     const comments = await Comment.findAll({
 	  where: {
 	    book_id: bookID
-	  }
+	  },
+	  order: [
+		['nums', 'DESC']
+	  ]
 	})
 	return comments
   }
